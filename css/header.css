@@ -1,0 +1,129 @@
+/* Общие настройки */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.button {
+    background: #02897A;
+    color: #FFFFFF;
+    font-family: 'Poppins-Bold';
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+}
+
+@media only screen and (max-width: 480px) {
+    
+    header {
+        display: flex;
+        width: 100%;
+        box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+    }
+    
+    .logotype {
+        padding: 26px 0;
+        position: relative;
+        left: 7%;
+    }
+
+    .logotype-text {
+        position: relative;
+        padding-top: 28px;
+        font-family: 'Poppins-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 28px;
+        left: 8%;
+        color: #173A56;
+        
+    }
+
+    .intro {
+        display: flexbox;
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro img {
+        padding-top: 30px;
+    }
+
+    .intro h1 {
+        font-family: 'Poppins-Bold';
+        font-size: 36px;
+        line-height: 60px;
+        color: #22343D;
+        padding: 0 18px;
+    }
+
+    .intro p {
+        font-family: 'Poppins-Regular';
+        font-size: 18px;
+        line-height: 28px;
+        color: #22343D;
+        padding: 0 35px;
+    }
+
+    .button-get-started {
+        position: relative;
+        border-radius: 4px;
+        padding: 15px 25px;
+        left: 7%;
+    }
+
+    .watch-the-video {
+        position: relative;
+        padding-top: 15px;
+        left: 15%;
+    }
+
+    .watch-the-video a {
+        font-family: 'Poppins-Semibold';
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration-line: underline;
+        color: #02897A;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .triangle {
+        margin-top: 3px;
+        display: inline-block;
+        position: relative;
+        border-style: solid;
+        border-width: 10px 0 10px 17px;
+        border-color: transparent transparent transparent #02897A;
+    }
+
+    .buttons {
+        display: flex;
+        width: 100%;
+    }
+
+    /* Product */
+
+    .product {
+        text-align: center;
+    }
+
+    .product h1 {
+        font-family: 'Poppins-Bold';
+        padding-top: 116px;
+        font-size: 32px;
+        line-height: 48px;
+        color: #22343D;
+    }
+
+  }
